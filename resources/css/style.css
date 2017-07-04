@@ -1,0 +1,81 @@
+.mediumScreen {
+  display: none;
+}
+
+body {
+  font-family: Helvetica;
+  font-size: 18px;
+  line-height: 1.4;
+  width: 100%;
+}
+
+#header {
+  background-image: url("../main-banner.png");
+  height: 17rem;
+  background-position: 20%;
+  margin-bottom: 2rem;
+}
+
+header {
+  display: flex;
+  background-color: cadetblue;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+#bannerText {
+  width: 100%;
+  background-color: white;
+  color: black;
+  padding: 1rem 0;
+  margin-top: 9rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+#icons {
+  text-align: center;
+  width: 100%;
+}
+
+#icons img {
+  width: 3.5rem;
+  margin: auto;
+}
+
+.icon {
+  height: 8rem;
+  width: 5rem;
+  margin: auto;
+  text-align: center;
+  font-size: 0.77rem;
+  margin-bottom: 1.54rem;
+}
+
+.smallBanner {
+  background-color: cadetblue;
+  color: white;
+  margin-bottom: 1rem;
+  margin-top: 1.54rem;
+  text-align: center;
+  padding: 0.5rem 0 0.5rem 1.25rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#appointments {
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+}
+
+.paragraph {
+  font-size: 0.77rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+}
