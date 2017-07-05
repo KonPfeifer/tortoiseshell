@@ -14,6 +14,7 @@ body {
   background-image: url("../main-banner.png");
   height: 17rem;
   background-position: 20%;
+  background-size: cover;
   margin-bottom: 2rem;
   font-size: 1rem;
 }
@@ -105,6 +106,10 @@ footer > img {
     display: inline-block;
   }
 
+  #mobile {
+    display: none;
+  }
+
   #headerAll {
     height: 22rem;
     background-size: cover;
@@ -147,23 +152,6 @@ footer > img {
     margin-bottom: 1rem;
   }
 
-  #mobile {
-    display: none;
-  }
-
-  footer {
-    height: 5.5rem
-    margin-top: 5rem;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    margin-bottom: 4rem;
-  }
-
-  footer > img {
-    padding: 4rem 1rem 4rem 4rem;
-  }
-
   #bannerBoxes {
     display: flex;
     justify-content: space-around;
@@ -180,6 +168,19 @@ footer > img {
   #appointments {
     margin-left: 5%;
     width: 10rem;
+  }
+
+  footer {
+    height: 5.5rem
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 4rem;
+  }
+
+  footer > img {
+    padding: 4rem 1rem 4rem 4rem;
   }
 }
 
