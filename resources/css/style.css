@@ -7,13 +7,25 @@ body {
   font-size: 18px;
   line-height: 1.4;
   width: 100%;
+  max-width: 960px;
 }
 
-#header {
+#headerAll {
   background-image: url("../main-banner.png");
   height: 17rem;
   background-position: 20%;
   margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+#headerLogo {
+  display: flex;
+  align-items: center;
+}
+
+header > img {
+  height: 1.5rem;
+  margin-right: 1rem;
 }
 
 header {
@@ -33,6 +45,8 @@ header {
   margin-top: 9rem;
   font-size: 1rem;
   text-align: center;
+  font-weight: bold;
+  line-height: 1.2rem;
 }
 
 #icons {
@@ -78,4 +92,176 @@ footer {
   display: flex;
   justify-content: center;
   padding: 4rem;
+  background-color: azure;
+}
+
+footer > img {
+  height: 1.5rem;
+}
+
+@media only screen and (min-width: 470px) and (max-width: 1024px) {
+
+  .mediumScreen {
+    display: inline-block;
+  }
+
+  #headerAll {
+    height: 22rem;
+    background-size: cover;
+  }
+
+  #menuButtons {
+    margin: 1rem 2rem;
+  }
+
+  #bannerText {
+    padding: 4rem 0.75rem;
+    font-size: 1.33rem;
+    margin-top: 5rem;
+    margin-right: 2rem;
+    width: 25rem;
+    float: right;
+    height: 1rem;
+    font-size: 1.33rem;
+  }
+
+  #icons  {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .icon {
+    display: inline-block;
+    width: auto;
+    font-size: 1rem;
+  }
+
+  #icons img {
+    margin: 3rem 3rem 1rem 3rem;
+  }
+
+  .smallBanner {
+    width: 10rem;
+    padding: 0.5rem 0 0.5rem 1.25rem;
+    margin-bottom: 1rem;
+  }
+
+  #mobile {
+    display: none;
+  }
+
+  footer {
+    height: 5.5rem
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 4rem;
+  }
+
+  footer > img {
+    padding: 4rem 1rem 4rem 4rem;
+  }
+
+  #bannerBoxes {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    width: 100%;
+    margin-bottom: 5rem;
+  }
+
+  #philosophy {
+    display: block;
+    width: 10rem;
+  }
+
+  #appointments {
+    margin-left: 5%;
+    width: 10rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+
+  #headerAll {
+    height: 30rem;
+    background-size: cover;
+    padding-top: 1rem;
+  }
+
+  #bannerText {
+    padding: 1.5rem 5rem;
+    font-size: 2rem;
+    margin-top: 10rem;
+    float: right;
+    width: 30rem;
+    height: 5rem;
+    text-align: center;
+    line-height: 5rem;
+  }
+
+  #menuButtons {
+    margin: 1rem 2rem;
+  }
+
+  .mediumScreen {
+    display: inline-block;
+  }
+
+  #mobile {
+    display: none;
+  }
+
+  #icons  {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .icon {
+    display: inline-block;
+    width: auto;
+    font-size: 1rem;
+  }
+
+  #icons img {
+    margin: 3rem 3rem 1rem 3rem;
+  }
+
+  .smallBanner {
+    width: 10rem;
+  }
+
+  #philosophy {
+    width: 35%;
+    margin-right: 5%;
+    margin-left: 5rem;
+  }
+
+  #appointments {
+    width: 35%;
+  }
+
+  #bannerBoxes {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    width: 100%;
+    margin-bottom: 5rem;
+  }
+
+  footer {
+    height: 9.5rem
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  footer > img {
+    padding: 4rem 1rem 4rem 0;
+  }
+
 }
