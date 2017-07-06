@@ -53,20 +53,35 @@ header {
 #icons {
   text-align: center;
   width: 100%;
-}
-
-#icons img {
-  width: 3.5rem;
-  margin: auto;
-}
-
-.icon {
   height: 8rem;
   width: 5rem;
   margin: auto;
   text-align: center;
   font-size: 0.77rem;
   margin-bottom: 1.54rem;
+}
+
+#icons .icon .iconImageTruck img {
+  width: 3.5rem;
+  margin: auto;
+  margin-bottom:
+  display: flex;
+  margin-bottom: 5rem;
+}
+
+#icons .icon .iconImageRuler img {
+  width: 3.5rem;
+  margin: auto;
+  margin-bottom:
+  display: flex;
+  margin-bottom: 5.25rem;
+}
+
+#icons .icon .iconImagePaper img {
+  width: 5rem;
+  margin: auto;
+  display: flex;
+  margin-bottom: 1.25rem;
 }
 
 .smallBanner {
